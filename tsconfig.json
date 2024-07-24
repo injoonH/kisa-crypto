@@ -1,0 +1,25 @@
+{
+  "include": ["src"],
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    /* Type Checking */
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "strict": true,
+
+    /* Modules */
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "rootDir": "src",
+
+    /* Emit */
+    "noEmit": true,
+    "outDir": "dist",
+
+    /* Language and Environment */
+    "target": "ESNext"
+  }
+}
